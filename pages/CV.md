@@ -2,6 +2,7 @@
 layout: single
 classes: wide
 author_profile: true
+pdf_file: '../assets/files/JunchenJin_Resume_2307.pdf'
 title: Curriculum Vitae
 permalink: /cv/
 ---
@@ -9,4 +10,4 @@ permalink: /cv/
 March. 31, 2023
 </p>
 
-<object data="../assets/files/JunchenJin_Resume_2307.pdf" width="1000" height="1000"></object>
+{% pdf {{ page.pdf_file | uri_escape }} height=1000px %}
