@@ -1,0 +1,9 @@
+<aside class="sidebar__right">
+    <div class="notice--info">
+        <h1>News</h1>
+        {% for article in site.data.news limit:5 %}
+            <b>{{ article.date }}:</b> {{ article.headline | markdownify }}
+        {% endfor %}
+        <h4><a href="/news">View More</a></h4>
+    </div>
+</aside>

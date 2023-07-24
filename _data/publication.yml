@@ -1,0 +1,23 @@
+- year: 2022
+  publications:
+    - reference: jin2022_robustness
+      title: "How does heterophily impact the robustness of graph neural networks? theoretical connections and practical implications"
+      slides:
+      code: https://github.com/GemsLab/HeteRobust
+      paper: https://arxiv.org/pdf/2106.07767.pdf
+
+- year: 2021
+  publications:
+    - reference: jin2021_relation
+      title: "Toward understanding and evaluating structural node embeddings"
+      slides:
+      code: https://github.com/GemsLab/StrucEmbedding-GraphLibrary
+      paper: https://arxiv.org/pdf/2101.05730.pdf
+
+- year: 2020
+  publications:
+    - reference: jin2020_understanding
+      title: "Understanding and evaluating structural node embeddings"
+      slides:
+      code:
+      paper: https://www.mlgworkshop.org/2020/papers/MLG2020_paper_29.pdf
