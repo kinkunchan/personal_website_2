@@ -10,4 +10,7 @@ permalink: /cv/
 March. 31, 2023
 </p>
 
-{% pdf {{ page.pdf_file | uri_escape }} height=1000px %}
+<!-- {% pdf {{ page.pdf_file | uri_escape }} height=1000px %} -->
+<!-- {% pdf {{ page.pdf_file | uri_escape }} height=1000px %} -->
+
+<object data="../assets/files/JunchenJin_Resume_2307.pdf" width="1000" height="1000"></object>
